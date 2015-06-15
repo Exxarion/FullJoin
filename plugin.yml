@@ -1,0 +1,10 @@
+name: FullJoin
+author: Exxarion
+description: Allows certain players to join when the server is full
+version: 1.0
+main: FullJoin\FullJoin
+api: [1.12.0]
+permissions:
+  fulljoin.join:
+    default: op
+    description: "Join when the server is full"
